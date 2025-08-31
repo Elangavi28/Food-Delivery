@@ -10,4 +10,5 @@ export default defineConfig({
     tailwindcss(),
     require('tailwind-scrollbar-hide'),
   ],
+  base:'/Food-Delivery/'
 })
