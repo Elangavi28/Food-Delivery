@@ -71,7 +71,7 @@ function Home() {
 
       {/* //cart */}
       <div
-        className={`w-full md:w-[40vw] h-[100%] fixed top-0 right-0 bg-white shadow-xl p-6 transition-all duration-500 overflow-auto scrollbar-hide  ${
+        className={`w-full md:w-[40vw] h-[100%] fixed top-0 right-0 bg-white shadow-xl p-6 transition-all duration-500 overflow-auto ${
           showCart ? "translate-x-0" : "translate-x-full"
         }`}
       >
